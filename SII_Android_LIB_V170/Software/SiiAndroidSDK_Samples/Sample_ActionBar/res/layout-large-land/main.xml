@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/white" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1" >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/connection_type"
+                android:textColor="@color/blue" />
+
+            <RadioGroup
+                android:id="@+id/radiogroup"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+                <RadioButton
+                    android:id="@+id/radiobutton_bluetooth"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bluetooth"
+                    android:textColor="@color/black"
+                    android:checked="true"
+                    android:layout_marginLeft="10dp" />
+                <RadioButton
+                    android:id="@+id/radiobutton_usb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/usb"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="10dp" />
+                <RadioButton
+                    android:id="@+id/radiobutton_tcp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tcpip"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="20dp" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1" >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/address"
+                android:textColor="@color/blue" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+                <EditText
+                    android:id="@+id/edittext_device_address"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:inputType="text"
+                    android:maxLength="20"
+                    android:scrollHorizontally="true"
+                    android:layout_weight="1" />
+                <Button
+                    android:id="@+id/button_device_list"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/list" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" >
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <TableLayout
+                android:id="@+id/tableLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:stretchColumns="*" >
+                <TableRow>
+                    <Button
+                        android:id="@+id/button_connect"
+                        android:text="@string/connect" />
+                    <Button
+                        android:id="@+id/button_disconnect"
+                        android:text="@string/disconnect" />
+                    <Button
+                        android:id="@+id/button_send_text"
+                        android:text="@string/send_text" />
+                    <Button
+                        android:id="@+id/button_send_text_ex"
+                        android:text="@string/send_text_ex" />
+                </TableRow>
+                <TableRow>
+                    <Button
+                        android:id="@+id/button_print_barcode"
+                        android:text="@string/print_barcode" />
+                    <Button
+                        android:id="@+id/button_print_pdf417"
+                        android:text="@string/print_pdf417" />
+                    <Button
+                        android:id="@+id/button_print_qrcode"
+                        android:text="@string/print_qrcode" />
+                    <Button
+                        android:id="@+id/button_cut_paper"
+                        android:text="@string/cut_paper" />
+                </TableRow>
+                <TableRow>
+                    <Button
+                        android:id="@+id/button_print_open_drawer"
+                        android:text="@string/open_drawer" />
+                    <Button
+                        android:id="@+id/button_buzzer"
+                        android:text="@string/buzzer" />
+                    <Button
+                        android:id="@+id/button_send_binary"
+                        android:text="@string/send_binary" />
+                    <Button
+                        android:id="@+id/button_send_data_file"
+                        android:text="@string/send_data_file" />
+                </TableRow>
+                <TableRow>
+                    <Button
+                        android:id="@+id/button_get_status"
+                        android:text="@string/get_status" />
+                    <Button
+                        android:id="@+id/button_abort"
+                        android:text="@string/abort" />
+                    <Button
+                        android:id="@+id/button_get_printer_response"
+                        android:text="@string/get_printer_response" />
+                    <Button
+                        android:id="@+id/button_register_logo"
+                        android:text="@string/register_logo" />
+                    </TableRow>
+                <TableRow>
+                    <Button
+                        android:id="@+id/button_prin_logo"
+                        android:text="@string/print_logo" />
+                    <Button
+                        android:id="@+id/button_unregister_logo"
+                        android:text="@string/unregister_logo" />
+                    <Button
+                        android:id="@+id/button_register_style_sheet"
+                        android:text="@string/register_style_sheet" />
+                    <Button
+                        android:id="@+id/button_unregister_style_sheet"
+                        android:text="@string/unregister_style_sheet" />
+                </TableRow>
+                <TableRow>
+                    <Button
+                        android:id="@+id/button_reset_printer"
+                        android:text="@string/reset_printer" />
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:text="@string/log"
+        android:textColor="@color/blue" />
+
+    <EditText
+        android:id="@+id/edittext_log"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:maxLines="3"
+        android:textColor="@color/black"
+        android:editable="false" />
+
+</LinearLayout>

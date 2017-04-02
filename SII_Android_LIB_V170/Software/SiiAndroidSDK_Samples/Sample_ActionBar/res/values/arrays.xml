@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="international_character_list" >
+        <item>USA</item>
+        <item>FRANCE</item>
+        <item>GERMANY</item>
+        <item>ENGLAND</item>
+        <item>DENMARK I</item>
+        <item>SWEDEN</item>
+        <item>ITALY</item>
+        <item>SPAIN</item>
+        <item>JAPAN</item>
+        <item>NORWAY</item>
+        <item>DENMARK II</item>
+        <item>SPAIN II</item>
+        <item>LATIN_AMERICA</item>
+        <item>ARABIA</item>
+    </string-array>
+    <string-array name="international_character_values_list" >
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>17</item>
+    </string-array>
+    <string-array name="code_page_list" >
+        <item>Katakana</item>
+        <item>Code Page 1252</item>
+        <item>Code Page 864</item>
+        <item>Code Page 1250</item>
+        <item>Code Page 1251</item>
+        <item>Code Page 1253</item>
+        <item>Code Page 1254</item>
+    </string-array>
+    <string-array name="code_page_values_list" >
+        <item>1</item>
+        <item>16</item>
+        <item>37</item>
+        <item>45</item>
+        <item>46</item>
+        <item>47</item>
+        <item>48</item>
+    </string-array>
+    <string-array name="printer_model_list" >
+        <item>DPU-S245</item>
+        <item>DPU-S445</item>
+        <item>RP-E10/11</item>
+        <item>RP-D10</item>
+        </string-array>
+    <string-array name="printer_model_values_list" >
+        <item>284</item>
+        <item>281</item>
+        <item>291</item>
+        <item>295</item>
+    </string-array>
+    <string-array name="printer_response_list" >
+        <item>Response request</item>
+        <item>External RAM</item>
+        <item>User area</item>
+        <item>Arrange user area</item>
+        <item>NV graphics</item>
+        <item>Key code</item>
+        <item>Battery status</item>
+    </string-array>
+    <string-array name="printer_response_values_list" >
+        <item>0</item>
+        <item>6</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="char_underline_list" >
+        <item>UNDERLINE_CANCEL</item>
+        <item>UNDERLINE_1</item>
+        <item>UNDERLINE_2</item>
+    </string-array>
+    <string-array name="char_font_list" >
+        <item>FONT_A</item>
+        <item>FONT_B</item>
+    </string-array>
+    <string-array name="char_scale_list" >
+        <item>VARTICAL_1_HORIZONTAL_1</item>
+        <item>VARTICAL_1_HORIZONTAL_2</item>
+        <item>VARTICAL_1_HORIZONTAL_3</item>
+        <item>VARTICAL_1_HORIZONTAL_4</item>
+        <item>VARTICAL_2_HORIZONTAL_1</item>
+        <item>VARTICAL_2_HORIZONTAL_2</item>
+        <item>VARTICAL_2_HORIZONTAL_3</item>
+        <item>VARTICAL_2_HORIZONTAL_4</item>
+        <item>VARTICAL_2_HORIZONTAL_6</item>
+        <item>VARTICAL_3_HORIZONTAL_1</item>
+        <item>VARTICAL_3_HORIZONTAL_2</item>
+        <item>VARTICAL_3_HORIZONTAL_3</item>
+        <item>VARTICAL_3_HORIZONTAL_4</item>
+        <item>VARTICAL_4_HORIZONTAL_1</item>
+        <item>VARTICAL_4_HORIZONTAL_2</item>
+        <item>VARTICAL_4_HORIZONTAL_3</item>
+        <item>VARTICAL_4_HORIZONTAL_4</item>
+        <item>VARTICAL_4_HORIZONTAL_6</item>
+        <item>VARTICAL_4_HORIZONTAL_8</item>
+        <item>VARTICAL_6_HORIZONTAL_2</item>
+        <item>VARTICAL_6_HORIZONTAL_4</item>
+        <item>VARTICAL_6_HORIZONTAL_6</item>
+        <item>VARTICAL_6_HORIZONTAL_8</item>
+        <item>VARTICAL_8_HORIZONTAL_4</item>
+        <item>VARTICAL_8_HORIZONTAL_6</item>
+        <item>VARTICAL_8_HORIZONTAL_8</item>
+    </string-array>
+    <string-array name="print_alignment_list" >
+        <item>ALIGNMENT_LEFT</item>
+        <item>ALIGNMENT_CENTER</item>
+        <item>ALIGNMENT_RIGHT</item>
+    </string-array>
+    <string-array name="barcode_symbol_list" >
+        <item>BARCODE_SYMBOL_UPC_A</item>
+        <item>BARCODE_SYMBOL_UPC_E</item>
+        <item>BARCODE_SYMBOL_EAN13</item>
+        <item>BARCODE_SYMBOL_JAN13</item>
+        <item>BARCODE_SYMBOL_EAN8</item>
+        <item>BARCODE_SYMBOL_JAN8</item>
+        <item>BARCODE_SYMBOL_CODE39</item>
+        <item>BARCODE_SYMBOL_CODE93</item>
+        <item>BARCODE_SYMBOL_CODE128</item>
+        <item>BARCODE_SYMBOL_ITF</item>
+        <item>BARCODE_SYMBOL_CODABAR</item>
+        <item>BARCODE_SYMBOL_EAN13_ADDON</item>
+        <item>BARCODE_SYMBOL_JAN13_ADDON</item>
+    </string-array>
+    <string-array name="pdf417_symbol_list" >
+        <item>PDF417_STANDARD</item>
+        <item>PDF417_COMPACT</item>
+    </string-array>
+    <string-array name="qrcode_model_list" >
+        <item>QR_MODEL_1</item>
+        <item>QR_MODEL_2</item>
+    </string-array>
+    <string-array name="module_size_list" >
+        <item>BARCODE_MODULE_WIDTH_2</item>
+        <item>BARCODE_MODULE_WIDTH_3</item>
+        <item>BARCODE_MODULE_WIDTH_4</item>
+        <item>BARCODE_MODULE_WIDTH_5</item>
+        <item>BARCODE_MODULE_WIDTH_6</item>
+        <item>QR_MODULE_SIZE_2</item>
+        <item>QR_MODULE_SIZE_3</item>
+        <item>QR_MODULE_SIZE_4</item>
+        <item>QR_MODULE_SIZE_5</item>
+        <item>QR_MODULE_SIZE_6</item>
+        <item>QR_MODULE_SIZE_7</item>
+        <item>QR_MODULE_SIZE_8</item>
+        <item>QR_MODULE_SIZE_9</item>
+        <item>QR_MODULE_SIZE_10</item>
+        <item>QR_MODULE_SIZE_11</item>
+        <item>PDF417_MODULE_WIDTH_2</item>
+        <item>PDF417_MODULE_WIDTH_3</item>
+        <item>PDF417_MODULE_WIDTH_4</item>
+        <item>PDF417_MODULE_WIDTH_5</item>
+        <item>PDF417_MODULE_WIDTH_6</item>
+        <item>PDF417_MODULE_WIDTH_7</item>
+        <item>PDF417_MODULE_WIDTH_8</item>
+    </string-array>
+    <string-array name="hri_position_list" >
+        <item>HRI_NONE</item>
+        <item>HRI_POSITION_ABOVE</item>
+        <item>HRI_POSITION_BELOW</item>
+        <item>HRI_POSITION_ABOVE_BELOW</item>
+    </string-array>
+    <string-array name="nw_ratio_list" >
+        <item>WIDE_WIDTH_1</item>
+        <item>WIDE_WIDTH_2</item>
+        <item>WIDE_WIDTH_3</item>
+        <item>WIDE_WIDTH_4</item>
+        <item>NWRATIO_1TO2</item>
+        <item>NWRATIO_1TO2_5</item>
+        <item>NWRATIO_1TO3</item>
+    </string-array>
+    <string-array name="error_correction_list" >
+        <item>QR_ERROR_CORRECTION_L</item>
+        <item>QR_ERROR_CORRECTION_M</item>
+        <item>QR_ERROR_CORRECTION_Q</item>
+        <item>QR_ERROR_CORRECTION_H</item>
+        <item>PDF417_ERROR_CORRECTION_0</item>
+        <item>PDF417_ERROR_CORRECTION_1</item>
+        <item>PDF417_ERROR_CORRECTION_2</item>
+        <item>PDF417_ERROR_CORRECTION_3</item>
+        <item>PDF417_ERROR_CORRECTION_4</item>
+        <item>PDF417_ERROR_CORRECTION_5</item>
+        <item>PDF417_ERROR_CORRECTION_6</item>
+        <item>PDF417_ERROR_CORRECTION_7</item>
+        <item>PDF417_ERROR_CORRECTION_8</item>
+    </string-array>
+    <string-array name="cut_type_list" >
+        <item>CUT_FULL</item>
+        <item>CUT_PARTIAL</item>
+    </string-array>
+    <string-array name="drawer_num_list" >
+        <item>DRAWER_1</item>
+        <item>DRAWER_2</item>
+    </string-array>
+    <string-array name="pulse_width_list" >
+        <item>ON_OFF_TIME_100</item>
+        <item>ON_OFF_TIME_200</item>
+        <item>ON_OFF_TIME_300</item>
+        <item>ON_OFF_TIME_400</item>
+        <item>ON_OFF_TIME_500</item>
+        <item>ON_OFF_TIME_600</item>
+        <item>ON_OFF_TIME_700</item>
+        <item>ON_OFF_TIME_800</item>
+    </string-array>
+</resources>

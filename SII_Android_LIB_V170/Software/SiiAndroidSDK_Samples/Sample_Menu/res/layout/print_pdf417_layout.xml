@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_print_pdf417"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/data" />
+
+    <EditText android:id="@+id/edittext_data"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/error_correction" />
+
+            <Spinner
+                android:id="@+id/spinner_error_correction"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/error_correction_list" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/row" />
+
+            <EditText android:id="@+id/edittext_row"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:inputType="number"
+                android:maxLength="2" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/column" />
+
+            <EditText android:id="@+id/edittext_column"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:inputType="number"
+                android:maxLength="2" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/module_width" />
+
+            <Spinner
+                android:id="@+id/spinner_module_width"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/module_size_list" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/module_height" />
+
+            <EditText android:id="@+id/edittext_module_height"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="10"
+                android:inputType="number"
+                android:maxLength="3" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/alignment" />
+
+            <Spinner
+                android:id="@+id/spinner_alignment"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/print_alignment_list" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/pdf417_symbol" />
+
+            <Spinner
+                android:id="@+id/spinner_pdf417_symbol"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/pdf417_symbol_list" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

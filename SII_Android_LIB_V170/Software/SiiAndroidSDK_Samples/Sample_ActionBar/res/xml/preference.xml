@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:key="@string/key_send_timeout"
+        android:title="@string/send_timeout"
+        android:dialogTitle="@string/send_timeout"
+        android:inputType="number"
+        android:maxLength="5"
+        android:defaultValue="10000" />
+
+    <EditTextPreference
+        android:key="@string/key_receive_timeout"
+        android:title="@string/receive_timeout"
+        android:dialogTitle="@string/receive_timeout"
+        android:inputType="number"
+        android:maxLength="5"
+        android:defaultValue="10000" />
+
+    <EditTextPreference
+        android:key="@string/key_socket_keeping_time"
+        android:title="@string/socket_keeping_time"
+        android:dialogTitle="@string/socket_keeping_time"
+        android:inputType="number"
+        android:maxLength="6"
+        android:defaultValue="300000" />
+
+
+    <ListPreference
+        android:key="@string/key_international_character"
+        android:title="@string/international_character"
+        android:entries="@array/international_character_list"
+        android:entryValues="@array/international_character_values_list"
+        android:dialogTitle="@string/international_character" />
+
+    <ListPreference
+        android:key="@string/key_code_page"
+        android:title="@string/code_page"
+        android:entries="@array/code_page_list"
+        android:entryValues="@array/code_page_values_list"
+        android:dialogTitle="@string/code_page" />
+
+    <CheckBoxPreference
+        android:key="@string/key_secure_connection"
+        android:title="@string/secure_connection"
+        android:summaryOn="@string/secure_connection"
+        android:summaryOff="@string/insecure_connection"
+        android:defaultValue="true" />
+
+</PreferenceScreen>
