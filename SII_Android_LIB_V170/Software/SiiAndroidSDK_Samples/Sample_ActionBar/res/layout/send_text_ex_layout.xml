@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_send_text_ex"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text" />
+
+    <EditText android:id="@+id/edittext_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/bold" />
+
+            <CheckBox
+                android:id="@+id/checkbox_bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/underline" />
+
+            <Spinner
+                android:id="@+id/spinner_underline"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/char_underline_list" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/reverse" />
+
+            <CheckBox
+                android:id="@+id/checkbox_reverse"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/font" />
+
+            <Spinner
+                android:id="@+id/spinner_font"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/char_font_list" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/scale" />
+
+            <Spinner
+                android:id="@+id/spinner_scale"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/char_scale_list" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/alignment" />
+
+            <Spinner
+                android:id="@+id/spinner_alignment"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/print_alignment_list" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
